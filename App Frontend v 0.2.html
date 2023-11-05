@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;EcoCircle App&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-image: linear-gradient(45deg, #FFC796, #FF6B95, #6B8CFF);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-size: 100% 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header, section {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #004d40; /* Dark green border */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px; /* Added margin for space between buttons */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #004d40; /* Dark green color for buttons */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff; /* White text on buttons */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 10px; /* Added margin for space between buttons */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px; /* Added margin for space between buttons */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#columns-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-around;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#general-users {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #A7FFEB; /* Different color for General Users column */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#common {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #B2DFDB; /* Different color for Common column */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#ngos-community {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #FFCDD2; /* Different color for NGOs/Community column */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #80DEEA; /* Different color for Welcome section */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Welcome to EcoCircle App!&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button&gt;Web3 Wallet Connect&lt;/button&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div id="columns-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- General Users Column --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="general-users"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="user-dashboard"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;User Dashboard&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Log Activity&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;View Rewards&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;NFT&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Governance and Contributions --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="governance-contributions"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Governance and Contributions&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Donate&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Vote&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Common Column --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="common"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Marketplace --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="marketplace"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Marketplace&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;List Item or Service&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Order Item or Service&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Information &amp; Resources --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="info-resources"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Information &amp; Resources&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Local Eco Events&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Local Specific Data&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- NGOs/Community Column --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="ngos-community"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="ngo-dashboard"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;NGO/Community Dashboard&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Create Event&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Apply for Grant&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Donations and Funding --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="donations-funding"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Donations and Funding&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Direct Donations&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button&gt;Quadratic Funding&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Join us in making every action count towards a more sustainable and regenerative world!&lt;/p&gt;</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
